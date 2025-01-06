@@ -188,6 +188,7 @@ function Scene({
 
   return (
     <group>
+      {/* <OrbitControls /> use this to make the skateboard movable*/}
       <Environment files={"/hdr/warehouse-256.hdr"} />
       <group ref={originRef}>
         <group ref={containerRef} position={[-0.25, 0, -0.635]}>
